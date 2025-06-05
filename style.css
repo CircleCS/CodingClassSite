@@ -1,12 +1,23 @@
-* {
+* 
+
+
+{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
   }
   
   body {
+    
+        /*background-image: url('background.jpg');
+        background-size: cover;         /* Makes it fill the screen */
+        /*background-repeat: no-repeat;   /* Prevents tiling */
+       /* background-position: center;    /* Keeps it centered */
+       /* margin: 0;                      /* Removes default margin */
+        
+    
     font-family: 'Segoe UI', sans-serif;
-    background-color: #f8f9fa;
+    background-color: #88c6bf;
     color: #333;
     line-height: 1.6;
     padding: 20px;
@@ -52,7 +63,7 @@
     margin-top: 60px;
     color: #777;
   }
-  
+
   .btn {
     display: inline-block;
     padding: 10px 20px;
