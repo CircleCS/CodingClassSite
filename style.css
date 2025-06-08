@@ -14,6 +14,22 @@
     line-height: 1.6;
     padding: 20px;
   }
+
+  .header-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-text {
+  max-width: 60%;
+}
+
+.header-image {
+  max-width: 35%;
+  height: auto;
+  border-radius: 8px;
+}
   
   header {
     text-align: center;
