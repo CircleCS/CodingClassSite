@@ -40,7 +40,10 @@
     background-color: #6acea9;
     color: white;
   }
-  
+  .highlight {
+  color: #eb412e; /* or any color you like */
+  font-weight: bold; /* optional */
+}
   h1 {
     font-size: 3rem;
   }
