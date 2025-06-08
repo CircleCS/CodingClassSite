@@ -14,15 +14,18 @@
     line-height: 1.6;
     padding: 20px;
   }
-
-  .header-content {
+.header-content {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding: 0 40px;
+  gap: 40px;
 }
 
 .header-text {
   max-width: 60%;
+  text-align: center; /* center the headings/paragraphs */
+  margin: 0 auto;
 }
 
 .header-image {
