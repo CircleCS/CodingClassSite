@@ -123,13 +123,12 @@
 
 
 /* Gallery layout */
-.gallery {
-  display: flex;         /* or grid */
-  flex-wrap: wrap;       /* allow wrapping */
-  gap: 10px;             /* space between images */
-  align-items: flex-start; /* prevents stretching */
-}
 
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); 
+    gap: 10px;
+  }
 
 /* Gallery item */
 .gallery-item {
@@ -144,12 +143,14 @@
 }
 
 /* Image styling */
-.gallery img {
-  width: auto;       /* don’t force a uniform width */
-  height: auto;      /* keep original aspect ratio */
-  max-width: 100%;   /* keeps large images from overflowing their container */
-  display: inline-block;
-}
+
+  .gallery img {
+    width: 100%;       /* make images fill their grid cell */
+    height: 200px;     /* restrict to fixed height */
+    object-fit: cover; /* crop edges but keep proportions */
+    border-radius: 6px;
+    cursor: pointer;
+  }
 
 /* Add some hover effect to images */
 img {
